@@ -5,5 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <form class="form" id="signupForm">
+      <div class="box" id="usernameBox">
+        <span class="boxSpan">UserName</span>
+        <input type="text" placeholder="username" id="username" />
+      </div>
+      <div class="box" id="emailBox">
+        <span class="boxSpan">Email</span>
+        <input type="email" id="signupEmail" placeholder="abc@gmail.com" />
+      </div>
+      <div class="box" id="passwordBox">
+        <span class="boxSpan">Password</span>
+        <input type="password" id="signupPassword" />
+      </div>
+      <button type="submit">signup</button>
+    </form>
+    <div class="jump"><a href="./signup.html">Signup</a></div>
+    <script type="module" src="./signup.js"></script>
+  </body>
 </html>

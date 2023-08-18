@@ -1,0 +1,17 @@
+.post {
+  border: 2px solid black;
+  padding: 1em;
+  margin: 1em;
+}
+#postSection {
+  border: 1px solid black;
+}
+.editForm {
+  display: none;
+  position: fixed;
+  top: 2em;
+  left: 40%;
+  width: 50%;
+  height: 4em;
+  border: 2px solid orangered;
+}
